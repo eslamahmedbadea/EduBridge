@@ -1,0 +1,216 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Estedad:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+}
+
+/* Reset attributes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Webiste colors */
+:root {
+  --dark-blue: #252b42;
+  --sky-blue: #23a6f0;
+  --light-sky-blue: #b2e3ff;
+  --light-orange: #e77c40;
+  --red: #e74040;
+  --light-pink: #ffdcd1;
+  --light-gray: #737373;
+  --yellow: #f3cd03;
+  --green: #2dc071;
+  --light-green: #b9eaa8;
+  --transition: 0.4s;
+}
+
+/* Global nav attributes */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.4;
+}
+
+/* Header Start */
+#header {
+  background-color: var(--dark-blue);
+}
+
+/* Container Style */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  height: 100px;
+}
+
+.navBar a {
+  color: white;
+  font-size: 14px;
+}
+
+.navBar .logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navBar ul {
+  display: flex;
+}
+
+.navBar ul li a {
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.navBar ul li a:hover {
+  color: var(--red);
+  transition: var(--transition);
+}
+
+.navBar .account .btn-join {
+  background-color: var(--sky-blue);
+  padding: 10px 20px;
+  margin-left: 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.navBar .account .btn-join:hover {
+  background-color: var(--red);
+  transition: var(--transition);
+}
+
+.navBar .account .btn-join svg {
+  font-size: 12px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+/* Header End */
+
+/** Main Start **/
+/* Home Start */
+#home {
+  background-color: var(--dark-blue);
+  padding: 5rem 0;
+}
+
+#home .home-header {
+  text-align: center;
+  color: white;
+  max-width: 450px;
+  margin: auto;
+}
+
+#home .home-header span {
+  color: var(--red);
+  font-weight: 600;
+}
+
+#home .home-header h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: var(--light-pink);
+}
+
+#home .home-header p {
+  margin-bottom: 20px;
+  font-variant: var(--light-pink);
+  line-height: 1.6;
+}
+
+#home .home-header .btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid var(--red);
+  margin: 0 5px;
+}
+
+#home .home-header .btn.btn-red {
+  color: white;
+  background-color: var(--red);
+}
+
+#home .home-header .btn.btn-red:hover {
+  background-color: var(--light-gray);
+  border: none;
+  transition: var(--transition);
+}
+
+#home .home-header .btn.btn-transparent {
+  background-color: transparent;
+  color: var(--red);
+  transition: var(--transition);
+}
+
+#home .home-header .btn.btn-transparent:hover {
+  background-color: var(--light-sky-blue);
+  color: var(--red);
+  border: none;
+  transition: var(--transition);
+}
+
+#home .card-container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#home .card-container .card {
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#home .card-container .card .icon {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+#home .card-container .card .icon svg {
+  font-size: 25px;
+}
+
+#home .card-container .card h2 {
+  font-size: 18px;
+  color: var(--dark-blue);
+  margin-top: 15px;
+}
+
+#home .card-container .card .line {
+  width: 50px;
+  height: 2px;
+  display: block;
+  background-color: var(--red);
+  margin: 15px 0;
+}
+
+#home .card-container .card p {
+  font-size: 14px;
+}
+/* Home End */
+/** Main End **/
