@@ -231,13 +231,13 @@ p {
   padding: 7rem 0;
 }
 
-#courses .section-header h2 {
+.section-header h2 {
   font-size: 35px;
   margin: 15px 0;
   color: var(--dark-blue);
 }
 
-#courses .section-header p {
+.section-header p {
   color: var(--light-gray);
 }
 
@@ -340,6 +340,60 @@ p {
   border-radius: 25px;
   font-weight: 500px;
 }
+
+#courses .courses-container .course .content .btn-learn:hover {
+  background-color: var(--red);
+  color: white;
+  border: none;
+  transition: var(--transition);
+}
+
+#courses .courses-container .course .content .btn-learn svg {
+  margin-left: 5px;
+  vertical-align: middle;
+}
 /* Courses End */
+
+/* Reviews Start */
+#reviews {
+  padding-bottom: 7rem;
+}
+
+#reviews .ratings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12rem;
+  margin-top: 5rem;
+}
+
+#reviews .ratings .rating img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+#reviews .ratings .rating .stars {
+  color: var(--yellow);
+  text-align: center;
+  display: block;
+  font-size: 30px;
+}
+
+#reviews .ratings .rating .description {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+#reviews .ratings .rating .person {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  font-weight: 500;
+}
+/* Reviews End */
 
 /** Main End **/

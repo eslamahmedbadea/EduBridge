@@ -35,7 +35,7 @@ export const coursesData = [
   {
     id: 1,
     img: "/graphic_design.jpg",
-    department: "Graphic Designer",
+    department: "Graphic Design",
     title: "UI & UX Designer",
     rating: "4.7",
     description:
@@ -73,5 +73,35 @@ export const coursesData = [
     discount: "$9.99",
     duration: "16hr 50min",
     lessons: "107 Lessons",
+  },
+];
+
+export const ratingsData = [
+  {
+    id: 1,
+    stars: "* * * * *",
+    img: "./person1.jpg",
+    description:
+      "This course exceeded my expectations! the content was well-organized, the explanations were clear, and the hands-on projects helped me build real-world skills. Highly recommend it to anyone lookng to learn!",
+    name: "Gamal Mahmoud",
+    job: "Software Engineer",
+  },
+  {
+    id: 2,
+    stars: "* * * * *",
+    img: "./person2.jpg",
+    description:
+      "This course exceeded my expectations! the content was well-organized, the explanations were clear, and the hands-on projects helped me build real-world skills. Highly recommend it to anyone lookng to learn!",
+    name: "Omar Mohamed",
+    job: "Graphic Designer",
+  },
+  {
+    id: 3,
+    stars: "* * * * *",
+    img: "./person3.jpg",
+    description:
+      "This course exceeded my expectations! the content was well-organized, the explanations were clear, and the hands-on projects helped me build real-world skills. Highly recommend it to anyone lookng to learn!",
+    name: "Eslam Mostafa",
+    job: "Project Manager",
   },
 ];
