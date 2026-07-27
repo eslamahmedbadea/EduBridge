@@ -55,13 +55,12 @@ function Course({
               <FaMap />
               {lessons}
             </p>
-
-            {/* Learn More */}
-            <a href="#" className="btn-learn">
-              Learn More
-              <FaChevronRight />
-            </a>
           </div>
+          {/* Learn More */}
+          <a href="#" className="btn-learn">
+            Learn More
+            <FaChevronRight />
+          </a>
         </div>
       </div>
     </div>

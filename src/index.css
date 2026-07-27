@@ -288,6 +288,58 @@ p {
   font-weight: 600;
 }
 
+#courses .courses-container .course .content .course-field .rating {
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+#courses .courses-container .course .content .course-field .rating svg {
+  color: var(--yellow);
+  margin-right: 5px;
+}
+
+#courses .courses-container .course .content h3 {
+  margin: 10px 0;
+  color: var(--dark-blue);
+}
+
+#courses .courses-container .course .content .sales {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+#courses .courses-container .course .content .price del {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+#courses .courses-container .course .content .course-info {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+#courses .courses-container .course .content .course-info p {
+  margin-right: 10px;
+}
+
+#courses .courses-container .course .content .course-info p svg {
+  margin-right: 3px;
+  color: var(--sky-blue);
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+#courses .courses-container .course .content .btn-learn {
+  display: inline-block;
+  padding: 12px 20px;
+  border: solid 1px var(--sky-blue);
+  color: var(--sky-blue);
+  border-radius: 25px;
+  font-weight: 500px;
+}
 /* Courses End */
 
 /** Main End **/
