@@ -15,13 +15,13 @@ body {
 
 /* Webiste colors */
 :root {
-  --dark-blue: #252b42;
-  --sky-blue: #23a6f0;
-  --light-sky-blue: #b2e3ff;
-  --light-orange: #e77c40;
-  --red: #e74040;
-  --light-pink: #ffdcd1;
-  --light-gray: #737373;
+  --dark-blue: #0f172a;
+  --sky-blue: #3b82f6;
+  --light-sky-blue: #dbeafe;
+  --light-orange: #6366f1;
+  --red: #2563eb;
+  --light-pink: #f8fafc;
+  --light-gray: #64748b;
   --yellow: #f3cd03;
   --green: #2dc071;
   --light-green: #b9eaa8;
@@ -95,7 +95,7 @@ p {
 }
 
 .navBar ul li a:hover {
-  color: var(--red);
+  color: var(--sky-blue);
   transition: var(--transition);
 }
 
@@ -108,7 +108,7 @@ p {
 }
 
 .navBar .account .btn-join:hover {
-  background-color: var(--red);
+  background-color: var(--sky-blue);
   transition: var(--transition);
 }
 
@@ -118,6 +118,16 @@ p {
   vertical-align: middle;
 }
 /* Header End */
+
+/* Mobile nav toggle (add this button in your HTML inside .navBar) */
+.navBar .nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+}
 
 /** Main Start **/
 /* Home Start */
@@ -134,7 +144,7 @@ p {
 }
 
 #home .home-header span {
-  color: var(--red);
+  color: var(--sky-blue);
   font-weight: 600;
 }
 
@@ -156,30 +166,30 @@ p {
   border-radius: 5px;
   font-size: 12px;
   font-weight: 500;
-  border: 1px solid var(--red);
+  border: 1px solid var(--sky-blue);
   margin: 0 5px;
 }
 
 #home .home-header .btn.btn-red {
   color: white;
-  background-color: var(--red);
+  background-color: var(--sky-blue);
 }
 
 #home .home-header .btn.btn-red:hover {
-  background-color: var(--light-gray);
+  background-color: #1d4ed8;
   border: none;
   transition: var(--transition);
 }
 
 #home .home-header .btn.btn-transparent {
   background-color: transparent;
-  color: var(--red);
+  color: var(--sky-blue);
   transition: var(--transition);
 }
 
 #home .home-header .btn.btn-transparent:hover {
   background-color: var(--light-sky-blue);
-  color: var(--red);
+  color: var(--sky-blue);
   border: none;
   transition: var(--transition);
 }
@@ -217,7 +227,7 @@ p {
   width: 50px;
   height: 2px;
   display: block;
-  background-color: var(--red);
+  background-color: var(--sky-blue);
   margin: 15px 0;
 }
 
@@ -263,7 +273,7 @@ p {
   top: 10px;
   left: 10px;
   padding: 5px 8px;
-  background-color: var(--red);
+  background-color: var(--sky-blue);
   color: white;
   font-weight: 500;
   font-size: 12px;
@@ -342,7 +352,7 @@ p {
 }
 
 #courses .courses-container .course .content .btn-learn:hover {
-  background-color: var(--red);
+  background-color: var(--sky-blue);
   color: white;
   border: none;
   transition: var(--transition);
@@ -484,3 +494,173 @@ p {
   color: var(--light-gray);
 }
 /** Footer End **/
+
+/** Responsive **/
+
+/* ---------- Tablets & small laptops ---------- */
+@media (max-width: 992px) {
+  #home .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #courses .courses-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  #reviews .ratings {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  #footer .footer-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* ---------- Tablets & mobile ---------- */
+@media (max-width: 768px) {
+  .navBar {
+    height: auto;
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .navBar .nav-toggle {
+    display: block;
+    order: 2;
+  }
+
+  .navBar .logo {
+    order: 1;
+  }
+
+  .navBar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    order: 4;
+    margin-top: 1rem;
+  }
+
+  .navBar ul.active {
+    display: flex;
+  }
+
+  .navBar ul li a {
+    display: block;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .navBar .account {
+    display: none;
+    width: 100%;
+    order: 5;
+  }
+
+  .navBar .account.active {
+    display: block;
+  }
+
+  .navBar .account .btn-join {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #home {
+    padding: 3.5rem 0;
+  }
+
+  #home .home-header {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  #home .home-header h1 {
+    font-size: 30px;
+  }
+
+  #home .card-container {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+  }
+
+  #courses {
+    padding: 4rem 0;
+  }
+
+  #courses .courses-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .section-header h2 {
+    font-size: 28px;
+  }
+
+  #reviews .ratings {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  #JoinUs {
+    padding: 4rem 0;
+  }
+
+  #JoinUs .content h2 {
+    font-size: 26px;
+  }
+
+  #JoinUs .content form {
+    margin-top: 2rem;
+  }
+
+  #footer .footer-row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  #footer .footer-row .socials {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ---------- Small phones ---------- */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .navBar {
+    padding: 1rem;
+  }
+
+  #home .home-header h1 {
+    font-size: 24px;
+  }
+
+  #home .home-header .btn {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .section-header h2 {
+    font-size: 22px;
+  }
+
+  #JoinUs .content form input {
+    padding-right: 70px;
+  }
+
+  #JoinUs .content form button {
+    padding: 12px 10px;
+    font-size: 12px;
+  }
+}

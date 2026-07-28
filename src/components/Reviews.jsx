@@ -8,7 +8,7 @@ function Reviews() {
     <section id="reviews">
       <div className="container">
         <SectionHeader
-          title={"Each and every cliet is important"}
+          title={"Each and every client is important"}
           description={
             "Discover what our students are saying in the reviews section! Real feedback from learners who have experienced and benefited from our courses."
           }
