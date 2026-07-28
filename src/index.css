@@ -445,5 +445,42 @@ p {
   transition: var(--transition);
 }
 /* Join us End */
-
 /** Main End **/
+
+/** Footer Start **/
+#footer .footer-row {
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+#footer .footer-row .col h2 {
+  margin-bottom: 20px;
+  color: var(--dark-blue);
+}
+
+#footer .footer-row .col p {
+  color: var(--light-gray);
+}
+
+#footer .footer-row .socials {
+  margin-top: 20px;
+}
+
+#footer .footer-row .socials a {
+  color: var(--sky-blue);
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#footer .footer-row ul li {
+  margin: 10px 0;
+  color: var(--light-gray);
+  font-weight: 500;
+}
+
+#footer .footer-row ul li a {
+  color: var(--light-gray);
+}
+/** Footer End **/
