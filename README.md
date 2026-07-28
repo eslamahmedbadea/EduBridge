@@ -1,4 +1,4 @@
-# 🎓 EduBridge
+# 🎓 EduBridge - Online Courses Website
 
 EduBridge is a modern and responsive online learning platform built with **React.js**. The project provides a clean and engaging interface for browsing educational courses, exploring instructors, reading student testimonials, and encouraging users to start their learning journey.
 
