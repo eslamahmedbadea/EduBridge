@@ -1,6 +1,6 @@
 # 🎓 EduBridge
 
-EduBridge is a modern and responsive online learning platform built with React.js. The project provides a clean and engaging interface for browsing educational courses, exploring instructors, reading student testimonials, and encouraging users to start their learning journey.
+EduBridge is a modern and responsive online learning platform built with **React.js**. The project provides a clean and engaging interface for browsing educational courses, exploring instructors, reading student testimonials, and encouraging users to start their learning journey.
 
 ## 🌐 Live Demo
 
@@ -8,15 +8,26 @@ EduBridge is a modern and responsive online learning platform built with React.j
 
 ---
 
+## 📸 Preview
+
+> Add screenshots here
+
+| Home | Courses |
+|------|---------|
+| ![Home](./screenshots/home.png) | ![Courses](./screenshots/courses.png) |
+
+---
+
 ## ✨ Features
 
-- 📚 Modern online course landing page
-- 📱 Fully Responsive Design
+- 📚 Modern online learning platform
+- 🎓 Browse featured courses
+- 👨‍🏫 Meet professional instructors
+- 💬 Student testimonials section
+- 📱 Fully responsive design
 - ⚡ Fast and optimized performance
 - 🎨 Clean and modern UI
-- 🧩 Reusable React Components
-- 💬 Student testimonials section
-- 📖 Course cards with pricing and details
+- 🧩 Reusable React components
 - 📞 Contact & Footer section
 - 🚀 Smooth user experience
 
@@ -28,13 +39,14 @@ EduBridge is a modern and responsive online learning platform built with React.j
 - JavaScript (ES6+)
 - HTML5
 - CSS3
+- Vite
 - React Icons
 
 ---
 
 ## 📂 Folder Structure
 
-```
+```text
 src/
 │
 ├── assets/
@@ -55,7 +67,7 @@ Clone the repository
 git clone https://github.com/eslamahmedbadea/EduBridge.git
 ```
 
-Go to the project folder
+Navigate to the project folder
 
 ```bash
 cd EduBridge
@@ -67,7 +79,7 @@ Install dependencies
 npm install
 ```
 
-Start the development server
+Run the development server
 
 ```bash
 npm run dev
@@ -79,8 +91,9 @@ npm run dev
 
 | Technology | Purpose |
 |------------|---------|
-| React.js | Front-End Framework |
-| JavaScript | Logic |
+| React.js | Front-End Library |
+| JavaScript | Application Logic |
+| HTML5 | Markup |
 | CSS3 | Styling |
 | Vite | Build Tool |
 
@@ -88,7 +101,7 @@ npm run dev
 
 ## 📱 Responsive Design
 
-The website is fully responsive and optimized for:
+EduBridge is fully responsive and optimized for:
 
 - 💻 Desktop
 - 💻 Laptop
@@ -97,36 +110,16 @@ The website is fully responsive and optimized for:
 
 ---
 
-## 🔮 Future Improvements
+## 🙏 Acknowledgment
 
-- User Authentication
-- Course Details Page
-- Shopping Cart
-- Payment Integration
-- Dark Mode
-- Search & Filter Courses
-- Backend Integration
-- Dashboard for Students
+This project was initially built by following a React tutorial for learning purposes. Special thanks to the creator for the educational content that helped me learn React development.
 
----
-
-## 👨‍💻 Author
-
-**Eslam Ahmed**
-
-Frontend Developer
-
-- GitHub: https://github.com/eslamahmedbadea
-- LinkedIn: https://www.linkedin.com/in/eslam-ahmed-badea/
+Tutorial:
+[https://www.youtube.com/your-video-link
+](https://youtu.be/Y-9fjIGSNqo?si=K511Dxq0btuSI0WO)
 
 ---
 
 ## ⭐ Support
 
-If you like this project, don't forget to give it a ⭐ on GitHub.
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+If you like this project, consider giving it a ⭐ on GitHub. It helps support my work and motivates me to build more projects.
