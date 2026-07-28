@@ -396,4 +396,54 @@ p {
 }
 /* Reviews End */
 
+/* Join us Start */
+#JoinUs {
+  background-color: var(--dark-blue);
+  padding: 6rem 0;
+}
+
+#JoinUs .content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+#JoinUs .content h2 {
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+#JoinUs .content form {
+  margin-top: 4rem;
+  position: relative;
+}
+
+#JoinUs .content form input {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 100%;
+}
+
+#JoinUs .content form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px;
+  background-color: var(--sky-blue);
+  color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#JoinUs .content form button:hover {
+  cursor: pointer;
+  background-color: var(--dark-blue);
+  transition: var(--transition);
+}
+/* Join us End */
+
 /** Main End **/

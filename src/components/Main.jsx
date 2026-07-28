@@ -1,5 +1,6 @@
 import Courses from "./Courses";
 import Home from "./Home";
+import JoinUs from "./JoinUs";
 import Reviews from "./Reviews";
 
 function Main() {
@@ -8,6 +9,7 @@ function Main() {
       <Home />
       <Courses />
       <Reviews />
+      <JoinUs />
     </main>
   );
 }
