@@ -8,16 +8,6 @@ EduBridge is a modern and responsive online learning platform built with **React
 
 ---
 
-## 📸 Preview
-
-> Add screenshots here
-
-| Home | Courses |
-|------|---------|
-| ![Home](./screenshots/home.png) | ![Courses](./screenshots/courses.png) |
-
----
-
 ## ✨ Features
 
 - 📚 Modern online learning platform
